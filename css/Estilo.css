@@ -2,6 +2,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: 'Times New Roman';
     box-sizing: border-box;
+    color: #fff;
 }
 #dato1{
     display: none;
@@ -19,16 +20,23 @@ body {
     background-image: url(https://img.freepik.com/foto-gratis/fondo-futurista-abstracto-diseno-3d_1361-3532.jpg?w=1380&t=st=1677518746~exp=1677519346~hmac=6647d5480ba4b7f622ad2fdb44e2dd2cfadf92cb6f17962f8b91d0b1b859162a);
     display: flex;
     min-width: 400;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 .Cuerpoprincipal{
+
     min-width: 360px;
-     background-color: bisque;
+    background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75));
     border: 2px solid white;
     padding: 12px;
+    top: 50%;
+    left: 50%;
     width: 40%;
     margin: 0 auto;
 }
+
 .NombrePrincipal{
     text-align: center;
 }
