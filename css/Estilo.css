@@ -12,6 +12,9 @@
 #dato3{
     display: none;
 }
+#dato4{
+    display: none;
+}
 body {
     background-color: teal;
     display: flex;
@@ -49,6 +52,12 @@ fieldset{
 .Informacion{
     border-left: 12px;
     margin-left: 10%;
+}
+.piedepagina{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: 'Gill Sans';
+    text-align: center;
+    font-size: 10px;
 }
 .imagen1{
     border-radius: 50%;

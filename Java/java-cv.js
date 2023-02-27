@@ -43,3 +43,18 @@ function Leermasexperiencialaboral(){
         boton.innerHTML = "Ocultar Experiencia Laboral";
     }
 }
+// Muestra y oculta el video informativo
+function Vervideoinformativo(){
+    var puntos=document.getElementById("videoinfo");
+    var vermas=document.getElementById("dato4");
+    var boton=document.getElementById("boton4");
+    if (puntos.style.display ==="none"){   
+        puntos.style.display = "inline";
+        vermas.style.display = "none";
+        boton.innerHTML = "Mostrar Experiencia Laboral";
+    }else{
+        puntos.style.display = "none";
+        vermas.style.display = "inline";
+        boton.innerHTML = "Ocultar Experiencia Laboral";
+    }
+}
