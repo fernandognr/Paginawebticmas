@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juana Maria Barnes</title>
+    <link rel="stylesheet" href="css/Estilo.css">
+    
+    <script src="https://kit.fontawesome.com/39b03ff5f0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="Cuerpoprincipal">
+        <img class= "imagen1" src="imagencv.jpg" alt="2x2">
+        <h1 class="NombrePrincipal">Juana Maria Barnes</h1>
+        <p class="Direccion">2808 Cherry St, Los Angeles,Estados Unidos </p>
+        <p class="Telefono">Telefono: (546) 678-6228</p>
+        <fieldset>
+            <legend class="Titulo">Datos Generales</legend>
+            <p id="datosgenerales"></p>
+            <ul id="dato1">
+                <li class="Informacion"><span>Fecha de nacimiento:</span>8/2/1986 </li>
+                <li class="Informacion">DNI: 36.546.354</li>
+                <li class="Informacion">Nacionalidad: Argentina</li>
+                <li class="Informacion">Codigo postal: 2020</li>
+                <li class="Informacion">Email: JuanaMariaBarnes@gmail.com</li>
+            </ul>
+            <button onclick="Leermasdatosgenerales()" id="boton" class="boton">Mostrar Datos Generales</button>
+                <script src="Java/java-cv.js"></script>
+        </fieldset>
+        <fieldset>
+            <legend class="Titulo">Formacion Academica</legend>
+            <p id="Formacionacademica"></p>
+            <ul id="dato2">
+                <li class="Informacion">Bachiller en Cs.Economicas 2006</li>
+                <li class="Informacion">Ingenieria en sistemas, Univercidad Tecnologica Nacional (UTN) 2012</li>
+                <li class="Informacion">Doctorado En Seguridad Informatica, Univercidad Tecnologica Nacional(UTN) 2014 </li>
+                <li class="Informacion">Seminario de seguridad informatica Oxfort, Oxfort Univercity 2017</li>
+                <li class="Informacion">Ingles Nivel avanzado</li>
+                <li class="Informacion">Aleman Nivel avanzado</li>
+            </ul>
+            <button href="#" onclick="Leermasformacionacademica()" id="boton2" class="boton">Mostrar Formacion Academica</button>
+            <script src="Java/java-cv.js"></script>
+        </fieldset>
+        <fieldset>
+            <legend class="Titulo">Experiencia Laboral</legend>
+            <p id="Experiencialaboral"></p>
+            <ul id="dato3">
+                <li class="Informacion">Encargada de seguridad infomratica en Accenture 2016-Acutalidad</li>
+                <li class="Informacion">Profesora Seguridad informatica En Univercidad Naciolal de la Plata 2013-2016 </li>
+            </ul>
+            <button href="#" onclick="Leermasexperiencialaboral()" id="boton3" class="boton">Mostrar Experiencia Laboral</button>
+            <script src="Java/java-cv.js"></script>
+        </fieldset>
+        <fieldset class="videocontenedor">
+            <legend class="Titulo">Video informativo</legend>
+            <p id="videoinfo"></p>
+            <ul id="dato4" >
+                <iframe class="video" src="https://www.youtube.com/embed/5doYjZqG_Uk" title="4B 16 9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </ul>
+            <button href="#" onclick="Vervideoinformativo()" id="boton4" class="boton">Mostrar Video Informativo</button>
+            <script src="Java/java-cv.js"></script>
+        </fieldset>
+        <fieldset>
+            <legend class="Titulo">Redes Sociales</legend>
+            <div class="Contenedorderedes">
+                <ul>
+                    <li class="Iconored"><a href="https://es-la.facebook.com/"class="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li class="Iconored"><a href="https://ar.linkedin.com/" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li> 
+                    <li class="Iconored"><a href="https://twitter.com/" class="twitter"><i class="fa-brands fa-twitter"></i></a></li> 
+                    <li class="Iconored"><a href="https://instagram.com" class="instagram"><i class="fa-brands fa-instagram"></i></a></li> 
+                </ul>
+            </div>
+        </fieldset>
+        <footer class="piedepagina">Web creada en 2023</footer>
+    </div>
+    
+</body>
+</html>
