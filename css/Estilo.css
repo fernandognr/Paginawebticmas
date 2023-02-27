@@ -16,9 +16,10 @@
     display: none;
 }
 body {
-    background-color: teal;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-futurista-abstracto-diseno-3d_1361-3532.jpg?w=1380&t=st=1677518746~exp=1677519346~hmac=6647d5480ba4b7f622ad2fdb44e2dd2cfadf92cb6f17962f8b91d0b1b859162a);
     display: flex;
     min-width: 400;
+    background-size: cover;
 }
 .Cuerpoprincipal{
     min-width: 360px;
