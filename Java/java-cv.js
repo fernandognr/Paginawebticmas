@@ -51,10 +51,10 @@ function Vervideoinformativo(){
     if (puntos.style.display ==="none"){   
         puntos.style.display = "inline";
         vermas.style.display = "none";
-        boton.innerHTML = "Mostrar Experiencia Laboral";
+        boton.innerHTML = "Mostrar Video Informativo";
     }else{
         puntos.style.display = "none";
         vermas.style.display = "inline";
-        boton.innerHTML = "Ocultar Experiencia Laboral";
+        boton.innerHTML = "Ocultar Video informativo";
     }
 }
